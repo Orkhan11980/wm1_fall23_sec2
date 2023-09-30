@@ -1,17 +1,39 @@
-hr {
-    width: 90%;
-    height: 5px;
-    background-color: blue;
-    border-color: red;
+body{
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(161, 241, 241);
+}
+hr{
+  width: 96%;
+  height: 0.2px;
+  background-color: azure;
+  border-color: beige;
 }
 
-h3 {
- color: brown;
+.head{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #363638;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
-.title1{
-    color: yellow;
-}
+.head>li:hover{
+  background-color: #994242;
 
-ol{ li
-  list-style: ;;
+}
+.head>li{
+  float:left; 
+    margin: 0;
+    padding: 0;
+}
+.head>li a{
+  display: block;
+  color: rgb(242, 242, 247);
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
 }
