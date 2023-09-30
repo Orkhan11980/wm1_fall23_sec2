@@ -1,0 +1,17 @@
+hr {
+    width: 90%;
+    height: 5px;
+    background-color: blue;
+    border-color: red;
+}
+
+h3 {
+ color: brown;
+}
+.title1{
+    color: yellow;
+}
+
+ol{ li
+  list-style: ;;
+}
