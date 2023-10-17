@@ -482,9 +482,9 @@ i.material-icons {
 .pg-sub-title {
     margin-bottom: 10px;
     display: block;
-    font-size: 10px;
+    font-size: 15px;
     text-transform: uppercase;
-    color: #999999;
+    color: #723131;
     font-weight: 500;
     letter-spacing: 5px;
 }
@@ -524,22 +524,23 @@ btn:hover {
   cursor: pointer;
 }
 .cardvisit{
-  font-size: larger;
+  font-size: 20px;
   margin: 10px 10px 10px 10px;
+  font-style: oblique;
 
 }
 .digital-card {
   float: left;
   display: block;
   text-align: center;
-  padding: 0; /* Remove padding for full-width/height iframe */
-  width: 400px; /* Make sure the container spans the full width */
+  padding: 0; 
+  width: 400px; 
   height: 400px;
-  margin: 50px 50px 50px 50px; /* Make sure the container spans the full height */
+  margin: 50px 50px 50px 50px;
 }
 .digital-card-iframe {
-  width: 800px; /* Adjust the width to your needs */
-  height: 800px; /* Adjust the height to your needs */
+  width: 800px; 
+  height: 800px; 
   border: none;
  
 }
