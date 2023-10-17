@@ -19,15 +19,17 @@ h6 {
 }
 html {
   height: 100%;
+  
 }
 body {
   height: 100%;
   font-family: 'Quicksand', sans-serif;
- color: rgba(0, 0, 0, 0.6);
+   color: rgba(0, 0, 0, 0.6);
   box-sizing: border-box;
   font-size: 14px;
   overflow: hidden;
-  background: #fafafa;
+  background: #2f8dcb;
+  
 }
 label {
   padding: 0;
@@ -88,6 +90,7 @@ i.material-icons {
 {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   background-color: #F5F5F5;
+  
 }
 
 ::-webkit-scrollbar
@@ -95,6 +98,7 @@ i.material-icons {
   width: 5px;
   height: 5px;
   background-color: #F5F5F5;
+ 
 }
 
 ::-webkit-scrollbar-thumb
@@ -263,7 +267,7 @@ i.material-icons {
     width: 300px;
     overflow-y: auto;
     height: 100%;
-    background: #fff;
+    background-image: url(./img/leftback.avif);
     border-right: 1px solid rgba(221, 221, 221, 0.38);
     display: flex;
     flex-direction: column;
@@ -273,7 +277,7 @@ i.material-icons {
     flex: 1;
     overflow-y: auto;
     margin-left: 10px;
-    background: #fff;
+    background-image: url(./img/photo-1541140134513-85a161dc4a00.avif);
     border-left: 1px solid rgba(221, 221, 221, 0.38);
 }
 .logo {
@@ -501,7 +505,7 @@ border:rgb(74, 51, 223);
 border-radius: 40px;
 display: inline-block;
 white-space: nowrap;
-background: var(--idea-color);
+background-color: #007BFF;
 cursor: pointer;
 transition: all 0.3s ease;
 }
@@ -509,3 +513,34 @@ transition: all 0.3s ease;
 btn:hover {
   transform: scale(1.05);
 }
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Background color */
+  color: #fff; /* Text color */
+  text-decoration: none; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cardvisit{
+  font-size: larger;
+  margin: 10px 10px 10px 10px;
+
+}
+.digital-card {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 0; /* Remove padding for full-width/height iframe */
+  width: 400px; /* Make sure the container spans the full width */
+  height: 400px;
+  margin: 50px 50px 50px 50px; /* Make sure the container spans the full height */
+}
+.digital-card-iframe {
+  width: 800px; /* Adjust the width to your needs */
+  height: 800px; /* Adjust the height to your needs */
+  border: none;
+ 
+}
+
