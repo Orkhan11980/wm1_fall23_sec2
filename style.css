@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Young Serif');
 
+
 *{
   margin: 0;
   padding: 0;
@@ -19,7 +20,6 @@ h6 {
 }
 html {
   height: 100%;
-  
 }
 body {
   height: 100%;
@@ -277,6 +277,8 @@ i.material-icons {
     flex: 1;
     overflow-y: auto;
     margin-left: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-image: url(./img/photo-1541140134513-85a161dc4a00.avif);
     border-left: 1px solid rgba(221, 221, 221, 0.38);
 }
@@ -545,3 +547,13 @@ btn:hover {
  
 }
 
+
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-color: rgb(49, 55, 53);
+  border-spacing: 10px;
+}
+th,td{
+  padding: 10px;
+}
