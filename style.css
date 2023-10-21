@@ -483,16 +483,24 @@ i.material-icons {
 
 .pg-sub-title {
     margin-bottom: 10px;
-    display: block;
-    font-size: 15px;
+    font-size: 19px;
+    position: sticky;
+    z-index: 2;
     text-transform: uppercase;
     color: #723131;
     font-weight: 500;
+    top: 0;
+    float: right;
+    text-shadow: 0 0 3px #d55a5a, 0 0 5px #7070cd;
     letter-spacing: 5px;
 }
 .qa{
   margin-top: 10px 0 10px 0;
   padding-top: 10px;
+}
+#intro{
+   text-align: justify;
+
 }
 .summary{
   margin-top: 10px 10px 0 20px ;;
@@ -507,13 +515,18 @@ border:rgb(74, 51, 223);
 border-radius: 40px;
 display: inline-block;
 white-space: nowrap;
+margin: 15px 10px;
 background-color: #007BFF;
 cursor: pointer;
 transition: all 0.3s ease;
 }
 
-btn:hover {
+.btn:hover {
   transform: scale(1.05);
+  background-color: #d55a5a;
+}
+.btn:visited{
+  background-color: #2f8dcb;
 }
 .button-link {
   display: inline-block;
@@ -532,7 +545,7 @@ btn:hover {
 
 }
 .digital-card {
-  float: left;
+  float: auto;
   display: block;
   text-align: center;
   padding: 0; 
